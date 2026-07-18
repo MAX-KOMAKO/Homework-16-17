@@ -7,9 +7,9 @@ public class ReactionChase : IBehaviour
     private Transform _target;
     private float _speed;
 
-    public ReactionChase(Transform transform, Transform target, float speed)
+    public ReactionChase(Component enemyComponent, Transform target, float speed)
     {
-        _transform = transform;
+        _transform = enemyComponent.transform;
         _target = target;
         _speed = speed;
     }

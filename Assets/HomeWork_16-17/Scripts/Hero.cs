@@ -14,7 +14,6 @@ public class Hero : MonoBehaviour
             enabled = false;
             return;
         }
-        GameManager.HeroTransform = transform;
     }
 
     private void FixedUpdate()

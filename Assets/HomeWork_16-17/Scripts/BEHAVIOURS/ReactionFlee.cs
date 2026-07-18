@@ -7,9 +7,9 @@ public class ReactionFlee : IBehaviour
     private Transform _target;
     private float _speed;
 
-    public ReactionFlee(Transform transform, Transform target, float speed)
+    public ReactionFlee(Component enemyComponent, Transform target, float speed)
     {
-        _transform = transform;
+        _transform = enemyComponent.transform;
         _target = target;
         _speed = speed;
     }

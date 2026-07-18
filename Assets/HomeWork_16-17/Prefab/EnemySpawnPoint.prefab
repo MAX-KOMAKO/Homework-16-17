@@ -49,3 +49,5 @@ MonoBehaviour:
   _patrolPoints: []
   _enemyPrefab: {fileID: 5318394501399634304, guid: b58c189293ce6447888f527155ab10dd,
     type: 3}
+  _heroTransform: {fileID: 2350390404962899433, guid: 77ba2935564894959b9ac32e6c1ba743,
+    type: 3}

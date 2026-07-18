@@ -36,3 +36,4 @@ public class IdleRandomWalk : IBehaviour
 
     public void Disable() { }
 }
+
